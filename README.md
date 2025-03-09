@@ -8,7 +8,7 @@ SDL3 2D API, no shaders but with blending tricks
 
 Graphics were created by: https://0x72.itch.io/ (0x72) - 16x16 DungeonTileset II
 
-TODO picture here
+![0x72_DungeonTilesetII_v1 7](https://github.com/user-attachments/assets/723af9cc-a45f-4eee-9ff8-99ae05a4211b)
 
 # learning resources
 
