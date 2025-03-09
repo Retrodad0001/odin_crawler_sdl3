@@ -1,0 +1,81 @@
+BACKLOG
+
+-------------------------- 0.8.0 ----------- PLAY TEST AND FEEDBACK READY
+
+V setup the basics
+    V setup vs code for odin with small SDL3 demo scene (SDL 2D API, no shaders only blending tricks)
+    V setup readme
+    V setup text repo and repo rules
+    V setup memory issue detection
+    V setup odin run game handy script
+
+- show complete texture atlas with static camera
+    - show atlas complete
+    - basic setup scene and state management
+    - add picture in readme
+    - correct resolution
+    - setup windows stuff : title, icon, ...
+    - basic camera setup like zoom level
+    - integrate ODIN with logging with SDL3
+
+- add tooling like for debug, performance and drawing
+    - setup debug overlay
+        -enable / disable with F12
+        -show PFS
+        -show camera position and zoom
+        -setup draw analyzing tool
+        -setup performance test tool
+
+- add max framerate and delta time 
+
+- move player and display one monster
+    - setup basic asset stuff
+         - path should work on multiple OS
+    - setup basic entity management
+    - player input
+    - setup smooth moving player and monster (just walk down for now)
+    - show debug overlay stuff
+     
+- setup animation
+     - show debug overlay info
+
+- setup non generated dungeon for testing gameplay and collisions later on
+     - show debug overlay stuff
+
+- camera follows (smooth) the player
+
+- player can explore the world
+    - show discovered tiles only
+    - minimap
+
+- player cannot walk thru walls
+    - integrate box 2d? or custom stuff
+    - show debug overlay collision info
+
+- monsters can kill the player and player can kill monsters
+    - setup AI for multiple monsters
+    - setup collisions when hit
+
+- implement the core game loop
+    - generate dungeon based on level
+    - ... 
+
+- play music and add sound effects
+
+- ....
+
+
+- setup release 
+    - windows (desktop)
+    - mac (desktop)
+    - linux (desktop)
+    - ...
+
+
+-------------------------- 1.0.0 ----------- PLAY TEST AND FEEDBACK RESOLVED AND FIRST PRODUCTION RELEASE
+....
+
+
+
+-------------------------- LATER ----------- ....
+....
